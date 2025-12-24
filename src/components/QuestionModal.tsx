@@ -27,7 +27,7 @@ export const QuestionModal = ({ question, onClose, onAnswer }: QuestionModalProp
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4 animate-fadeIn">
-      <div className="bg-gradient-to-br from-green-700 via-green-600 to-green-700 rounded-2xl shadow-2xl max-w-3xl w-full p-8 relative border-4 border-yellow-400 animate-slideIn">
+      <div className="bg-gradient-to-br from-green-700 via-green-600 to-green-900 rounded-2xl shadow-2xl max-w-4xl w-full p-8 py-30 relative border-4 border-green-400 animate-slideIn">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 text-white hover:text-yellow-300 transition-colors"
@@ -36,7 +36,7 @@ export const QuestionModal = ({ question, onClose, onAnswer }: QuestionModalProp
         </button>
 
         <div className="text-center mb-6">
-          <div className="inline-block bg-red-600 text-white px-6 py-2 rounded-full text-xl font-bold border-2 border-yellow-400">
+          <div className="inline-block bg-red-600 text-white px-6 py-2 rounded-full text-xl font-bold border-2 border-white">
             {question.points} баллов
           </div>
         </div>
@@ -82,7 +82,7 @@ export const QuestionModal = ({ question, onClose, onAnswer }: QuestionModalProp
         </div>
 
         <div className="mt-4 text-center text-white text-sm opacity-75">
-          by {question.author}
+          Сделано с 💙 {question.author}
         </div>
       </div>
     </div>

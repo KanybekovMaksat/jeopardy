@@ -16,7 +16,7 @@ export const GameBoard = ({ answeredQuestions, onQuestionClick }: GameBoardProps
         {categories.map((category) => (
           <div
             key={category}
-            className="bg-blue-500 text-white p-4 rounded-lg shadow-lg text-center font-bold text-sm md:text-base border-2 border-green-900"
+            className="bg-blue-500  text-white p-4 rounded-lg shadow-lg text-center font-bold text-sm md:text-xl border-2 border-green-900"
           >
             {category}
           </div>

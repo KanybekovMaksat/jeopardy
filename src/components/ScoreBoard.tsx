@@ -10,7 +10,7 @@ export const ScoreBoard = ({ teams, currentTeamIndex }: ScoreBoardProps) => {
   const sortedTeams = [...teams].sort((a, b) => b.score - a.score);
 
   return (
-    <div className="bg-white rounded-xl shadow-xl p-6 border-4 border-green-600">
+    <div className="bg-white rounded-xl shadow-xl p-6 ">
       <h2 className="text-2xl font-bold text-center mb-4 text-black flex items-center justify-center gap-2">
         <Trophy className="text-yellow-500" />
         Таблица результатов

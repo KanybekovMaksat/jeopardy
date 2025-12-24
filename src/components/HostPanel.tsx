@@ -71,7 +71,7 @@ export const HostPanel = ({
   };
 
   return (
-    <div className="bg-gradient-to-br from-red-700 to-red-800 rounded-xl shadow-2xl p-6 border-4 border-yellow-400">
+    <div className="bg-gradient-to-br from-red-700 to-red-800 rounded-xl shadow-2xl p-6">
       <div className="bg-white rounded-lg p-4 mb-6">
         <h3 className="font-bold text-lg mb-3 text-gray-800">Добавить команду</h3>
         <div className="space-y-3">
